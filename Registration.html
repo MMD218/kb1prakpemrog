@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KB 1 PEMROG WEB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: #f2fbef;
+margin : 0;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+body {
+      margin: 0; /agar tidak nempel/
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    background-color: #457b9d;
+    color: white;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+}
+.sticky{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a7d9dd;
+    position: sticky;
+    top: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1d3558;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>UKM Majelis Islam</h1>
+    </div>
+
+    <div class="sticky">
+        <li><a href=kb1prakpemprog.html > Home</a></li>
+        <li><a href=AboutUs.html >About US</a></li>
+        <li><a href=Contactus.html>Contact Us</a></li>
+        <li><a href=Registration.html>Registration</a></li>
+    </div>
+    <h2 style="margin-left: 15px;">UKM Majelis Islam Universitas Machung</h2>
+
+    <h3 style="margin-left: 15px;"><b>Yuk daftar di UKM kami!!</b></h3>
+    <p style="text-align: center;">Masukan Info kalian dibawah ya!</p>
+
+
+    <form action="kb1prakpemprog.html" style="max-width:500px;margin:auto">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Nama Lengkap" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Nomer Whats-App" name="email">
+  </div>
+
+  <button onclick="myFunction()" type="submit" class="btn">Kirim Data</button>
+</form>
+
+<script>
+function myFunction() {
+  alert("Hai data anda sudah kami terima! Tunggu Whats-App dari kami yahh Selamat bergabung :).");
+}
+</script>
+    
+
+    <footer>
+        copyright@MyWebsite2020
+    </footer>
+</body>
+</html>
